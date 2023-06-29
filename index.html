@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dream Restaurant</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <div class="container">
+    <div id="arrow-button">
+      <a href="#tabs"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+    <div class="home" id="home">
+      <div class="tabs" id="tabs">
+        <ul>
+          <li><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="#gallery"><i class="fa-solid fa-camera"></i>Gallery</a></li>
+          <li><a href="#about"><i class="fa-solid fa-user"></i>About</a></li>
+          <li><a href="#menu"><i class="fa-solid fa-utensils"></i>Menu</a></li>
+          <li><a href="#order"><i class="fa-solid fa-cart-shopping"></i>Order</a></li>
+        </ul>
+      </div>
+      <div class="title">
+        <h1>Taste The Delicious Flavors Here</h1>
+        <h3>All And All only In Dream Restaurant</h3>
+        <a href="#order">Order Now !</a>
+        </div>
+    </div>
+    <div class="gallery" id="gallery">
+      <h1>See The Delicious Dishes Of Our Restaurant</h1>
+      <div class="foods">
+        <img src="./images/burger.jpg" alt="burger">
+        <img src="./images/hotdog.jpg" alt="hotdog">
+        <img src="./images/pasta.jpg" alt="pasta">
+        <img src="./images/pizza.jpg" alt="pizza">
+      </div>
+    </div>
+    <div class="about" id="about">
+      <h1>What Is A Dream Restaurant ?</h1>
+      <p>Dream Company Operates With A Chain Of Cafes And Restaurants In The Country Under The Dream Brand. Dream
+        Company Actually Operates Under The Title Of Dream Restaurants Head Office. With More Than 65 Years Of
+        Experience, Dream Restaurant Chain Is Proud To Host Your Friends And Business Parties, Celebrations And Events
+        In 11 Branches Across The Country. In Order To Be The Best For You, According To All Tastes And Tastes, Relying
+        On The Art Of Skilled And Experienced Chefs, We Have Arranged A Complete Food Menu, And By Using International
+        Standards And Various Styles Of Architecture And Modern Designs, A Pleasant Space To Have A Meal. We Have
+        Created A Revolving Restaurant, Restaurants With Open And Closed Space. Also, It Is Ready To Receive Guests With
+        A Large Crowd At Any Time And With Unique Comfort Facilities Such As VIP Halls, Children's Playhouse, Escalator,
+        Private Parking, Separate Coffee Shop, Gazebo, Etc., We Try To Make You Have A Good Time. And May The Name Of
+        Dream Always Shine Among Your Choices.</p>
+    </div>
+    <div class="menu" id="menu">
+      <h1>Let's See The Restaurant Menu</h1>
+      <div class="foods">
+      <div class="burger">
+        <h2>Burger</h2>
+        <p>Meat Burger <br> Cheese Burger <br> Vegetables Burger <br> Healthy Burger</p>
+      </div>
+      <div class="hotdog">
+        <h2>Hotdog</h2>
+        <p>Cheese Hotdog <br> Normal Hotdog <br> Double Hotdog <br> Italian Hotdog</p>
+      </div>
+      <div class="pasta">
+        <h2>Pasta</h2>
+        <p>Pasta Penne <br> Pasta Mafaldine <br> Pasta Spatzle <br> Pasta Ravioli</p>
+      </div>
+      <div class="pizza">
+        <h2>Pizza</h2>
+        <p>Meat Pizza <br> Vegetables Pizza <br> Chicken Pizza <br> Pepperoni Pizza</p>
+      </div>
+    </div>
+    </div>
+    <div class="order" id="order">
+      <h1>Let's Order Something</h1>
+      <div class="form-container">
+        <div class="form-header">
+          <h3>What Do You Want To Order?</h3>
+          <div class="form-content">
+            <form action="">
+              <div class="select-burger">
+                <select name="burger-type" id="burger-type">
+                  <option value="">Choose Your Burger</option>
+                  <option value="meat-burger">Meat Burger</option>
+                  <option value="cheese-burger">Cheese Burger</option>
+                  <option value="vegetables-burger">Vegetables Burger</option>
+                  <option value="healthy-burger">Healthy Burger</option>
+                </select>
+              </div>
+              <div class="burger-count">
+                <select name="burger-count" id="burger-count">
+                  <option value="">How Many ?</option>
+                  <option value="one-burger">One</option>
+                  <option value="two-burger">Two</option>
+                  <option value="three-burger">Three</option>
+                  <option value="four-burger">Four</option>
+                  <option value="five-burger">Five</option>
+                </select>
+              </div>
+              <div class="select-hotdog">
+                <select name="hotdog-type" id="hotdog-type">
+                  <option value="">Choose Your Hotdog</option>
+                  <option value="cheese-hotdog">Cheese Hotdog</option>
+                  <option value="normal-hotdog">Normal Hotdog</option>
+                  <option value="double-hotdog">Double Dog</option>
+                  <option value="italian-hotdog">Italian Hotdog</option>
+                </select>
+              </div>
+              <div class="hotdog-count">
+                <select name="hotdog-count" id="hotdog-count">
+                  <option value="">How Many ?</option>
+                  <option value="one-hotdog">One</option>
+                  <option value="two-hotdog">Two</option>
+                  <option value="three-hotdog">Three</option>
+                  <option value="four-hotdog">Four</option>
+                  <option value="five-hotdog">Five</option>
+                </select>
+              </div>
+              <div class="select-pasta">
+                <select name="pasta-type" id="pasta-type">
+                  <option value="">Choose Your Pasta</option>
+                  <option value="pasta-penne">Pasta Penne</option>
+                  <option value="pasta-mafaldine">Pasta Mafaldine</option>
+                  <option value="pasta-spatzle">Pasta Spatzle</option>
+                  <option value="pasta-ravioli">Pasta Ravioli</option>
+                </select>
+              </div>
+              <div class="pasta-count">
+                <select name="pasta-count" id="pasta-count">
+                  <option value="">How Many ?</option>
+                  <option value="one-pasta">One</option>
+                  <option value="two-pasta">Two</option>
+                  <option value="three-pasta">Three</option>
+                  <option value="four-pasta">Four</option>
+                  <option value="five-pasta">Five</option>
+                </select>
+              </div>
+              <div class="select-pizza">
+                <select name="pizza-type" id="pizza-type">
+                  <option value="">Choose Your Pizza</option>
+                  <option value="meat-pizza">Meat Pizza</option>
+                  <option value="vegetables-pizza">Vegetables Pizza</option>
+                  <option value="chicken-pizza">Chicken Pizza</option>
+                  <option value="pepperoni-pizza">Pepperoni Pizza</option>
+                </select>
+              </div>
+              <div class="pizza-count">
+                <select name="pizza-count" id="pizza-count">
+                  <option value="">How Many ?</option>
+                  <option value="one-pizza">One</option>
+                  <option value="two-pizza">Two</option>
+                  <option value="three-pizza">Three</option>
+                  <option value="four-pizza">Four</option>
+                  <option value="five-pizza">Five</option>
+                </select>
+              </div>
+              <div class="button">
+                <a href="#">Order</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
